@@ -1,0 +1,259 @@
+/* Text Elements */
+
+h1.heading-1 {
+  font-weight: 400;
+  font-size: 42px;
+  font-family: 'Almendra', serif;
+}
+
+p.paragraph.paragraph-1 {
+  border-width: 2px;
+  border-style: outset;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: rgba(206, 206, 206, .8);
+  background-image: none;
+  background-attachment: scroll;
+  background-position: left top;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: 0 0;
+  background-repeat: no-repeat;
+  box-shadow: rgba(0, 0, 0, .5) 10px 10px 10px 7px;
+  text-align: center;
+  text-indent: 2px;
+  text-transform: none;
+  text-shadow: #78828c 2px -2px 4px;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+  font-family: 'Aref Ruqaa', serif;
+  opacity: .98;
+
+  background-blend-mode: normal;
+}
+
+p.paragraph span.paragraph-text-2 {
+  color: #580000;
+  font-weight: 700;
+}
+
+p.paragraph span.paragraph-text-3 {
+  color: #580000;
+  font-weight: 700;
+}
+
+p.paragraph span.paragraph-text-4 {
+  color: #580000;
+  font-weight: 700;
+}
+
+p.paragraph.paragraph-2 {
+  background-color: rgba(208, 208, 208, .8);
+  font-family: 'Aref Ruqaa', serif;
+}
+
+p.paragraph.paragraph-3 {
+  border-style: groove;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: rgba(255, 227, 227, .85);
+  box-shadow: rgba(0, 0, 0, .5) 15px 15px 10px 2px;
+  font-family: 'Aref Ruqaa', serif;
+  opacity: .96;
+}
+
+p.paragraph.paragraph-4 {
+  background-color: rgba(208, 208, 208, .8);
+  font-family: 'Aref Ruqaa', serif;
+}
+
+p.paragraph span.paragraph-text-1 {
+  color: #0a5a75;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+p.paragraph.paragraph-5 {
+  background-color: rgba(255, 228, 172, .75);
+  font-family: 'Aref Ruqaa', serif;
+}
+
+p.paragraph.paragraph-6 {
+  background-color: rgba(208, 208, 208, .8);
+  font-family: 'Aref Ruqaa', serif;
+}
+
+p.paragraph span.paragraph-text-5 {
+  color: #530077;
+  font-weight: 700;
+}
+
+p.paragraph.paragraph-7 {
+  background-color: rgba(236, 255, 221, .85);
+  font-family: 'Aref Ruqaa', serif;
+}
+
+p.paragraph.paragraph-8 {
+  background-color: rgba(208, 208, 208, .8);
+  font-family: 'Aref Ruqaa', serif;
+}
+
+p.paragraph span.paragraph-text-6 {
+  color: #0b0095;
+  font-weight: 700;
+}
+
+a.link-text {
+  font-size: 12px;
+  font-family: 'Andale Mono', AndaleMono, monospace;
+}
+
+a.link-text.nav-link {
+  display: block;
+  float: none;
+  clear: none;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  padding: 9px 20px;
+  border-bottom-style: solid;
+  color: #333;
+  text-align: center;
+  font-size: 17px;
+  font-family: 'Alata', sans-serif;
+
+  grid-area: auto / auto / auto / auto;
+  justify-self: start;
+}
+
+a.link-text.active {
+  border-bottom-width: 2px;
+  border-bottom-style: dotted;
+}
+
+a.link-text.active.nav-link {
+  float: left;
+  border-bottom-style: solid;
+}
+
+a.link-text.nav-link:hover {
+  text-decoration: line-through;
+}
+
+/* Layout Elements */
+
+body {
+  padding-right: 6px;
+  padding-left: 6px;
+}
+
+body.body-1 {
+  background-color: rgba(200, 200, 200, .5);
+  background-image: url('../images/background_1_low.jpg'), -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(46, 175, 179, .85) 100%);
+  background-image: url('../images/background_1_low.jpg'), -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(46, 175, 179, .85) 100%);
+  background-image: url('../images/background_1_low.jpg'), -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(46, 175, 179, .85) 100%);
+  background-image: url('../images/background_1_low.jpg'), linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(46, 175, 179, .85) 100%);
+  background-attachment: scroll, scroll;
+  background-position: left top, left top;
+  background-clip: border-box, border-box;
+  background-origin: padding-box, padding-box;
+  background-size: contain, auto auto;
+  background-repeat: repeat, repeat;
+  opacity: 1;
+
+  background-blend-mode: normal, normal;
+}
+
+.container-grid.nav-bar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display:    -moz-box;
+  display: -ms-flexbox;
+  display:         flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  padding-top: 12px;
+  padding-right: 8px;
+  padding-left: 8px;
+  background-image: -webkit-radial-gradient(rgba(208, 208, 208, .8) 0%, rgba(47, 103, 111, .5) 100%);
+  background-image:    -moz-radial-gradient(rgba(208, 208, 208, .8) 0%, rgba(47, 103, 111, .5) 100%);
+  background-image:      -o-radial-gradient(rgba(208, 208, 208, .8) 0%, rgba(47, 103, 111, .5) 100%);
+  background-image:         radial-gradient(rgba(208, 208, 208, .8) 0%, rgba(47, 103, 111, .5) 100%);
+  background-attachment: scroll;
+  background-position: left top;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto auto;
+  background-repeat: repeat;
+
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+          align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+          align-content: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  background-blend-mode: multiply;
+}
+
+.container-grid.footer {
+  margin-top: 25px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+audio.audio-1 {
+  visibility: hidden;
+}
+
+.container-grid.container-1 {
+  background-image: none;
+  background-attachment: scroll;
+  background-position: left top;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: 0 0;
+  background-repeat: no-repeat;
+
+  background-blend-mode: normal;
+}
+
+a.responsive-picture.picture-link-1 {
+  max-width: 500px;
+  width: 300%;
+}
+
+@media screen and (min-width: 992px) {
+  /* Text Elements */
+
+  a.link-text.nav-link {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* Text Elements */
+
+  a.link-text.nav-link {
+    font-family: 'Andale Mono', AndaleMono, monospace;
+  }
+
+  a.link-text.active {
+    border-bottom-style: dotted;
+  }
+}
